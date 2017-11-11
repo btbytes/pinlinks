@@ -9,7 +9,7 @@ Generate a link blog from your [pinboard.in](https://pinboard.in) public feed.
 ## Usage
 
 ```
-pinlinks
+python3.6 pinlinks.py
 ```
 
 Ideally, this will be run as a cronjob everyday and it will download previous day's links and create the links.
