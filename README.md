@@ -4,16 +4,15 @@ Generate a link blog from your [pinboard.in](https://pinboard.in) public feed.
 
 ## Installation
 
-1. Install and configure [pinboard](https://pypi.python.org/pypi/pinboard/)
+1. Install and configure [pinboard](https://pypi.python.org/pypi/pinboard/).
 
 ## Usage
 
 ```
-python3.6 pinlinks.py
+python3.6 pinlinks.py -y 2017 -m 11 > ~/website/links/2017-11.md
 ```
 
-Ideally, this will be run as a cronjob everyday and it will download previous day's links and create the links.
-
+See the [rendered page](https://www.btbytes.com/links/2017-11.html).
 
 ## Dependencies
 
