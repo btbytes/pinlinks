@@ -30,8 +30,7 @@ title: Links for the month of %s
         if not posts.get('posts'):
             sys.exit(0)
         elif len(shared) > 0:
-            print('\n**%s:** {#%s}\n' %
-                  (nenne.strftime('%A, %B %d %Y'), nenne.strftime('%Y%m%d')))
+            print('\n**%s:**\n' % (nenne.strftime('%A, %B %d %Y'), ))
         for post in shared:
             print('* [%s](%s)' %
                   (post.description.encode('utf-8'), post.url.encode('utf-8')))
